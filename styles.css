@@ -1,0 +1,24 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+#countLabel{
+    display:block;
+    text-align: center;
+    font-size: 10em;
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px ;
+    font-size: 2em;
+    color: white;
+    background-color: hsl(16, 100%, 50%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+.buttons:hover{
+    background-color: hsl(47, 100%, 50%);
+}
